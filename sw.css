@@ -1,0 +1,29 @@
+.carousel-item{
+    height: 240px;
+    min-height: 244px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 50px;
+    padding-left: 388px;
+    padding-right: 36px;
+}
+.carousel-item img {
+    width: 100%; /* Ou une autre valeur en fonction de vos besoins */
+    height: 121%;
+    object-fit: contain;
+}
+.carousel-caption h5{
+    font-size: 35px;
+    font-weight: 600;
+}
+.carousel-caption p{
+    font-size: 14px;
+    top: 2rem;
+}
+.w-100{
+    width: 48% !important;
+}
+
